@@ -14,4 +14,4 @@
 **/class
 
 # Ignore temporary files
-*.log
+*.log.DS_Store
