@@ -12,6 +12,8 @@ We have a circular dial numbered 0-99 and the dial:
 - rotates left (L) or right (R)
 - moves in discrete clicks
 - Wraps around (if you get to 0 and move left by 1 click, you are back at 99) **IMPORTANT**
+
+```java
                 0
          99            1
       98                  2
@@ -20,6 +22,8 @@ We have a circular dial numbered 0-99 and the dial:
       52                48
          51         49
               50  ← start
+```
+
 The input consists of rotation instructions like:
 L68
 R48
@@ -95,7 +99,7 @@ For loop as we know the number of clicks (distance), so a counted loop is perfec
 
 ---
 
-Time & Space Complexity
+# Time & Space Complexity
 ### Part 1
 
 | Metric     | Complexity | Explanation             |
